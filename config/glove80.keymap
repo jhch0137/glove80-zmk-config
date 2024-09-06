@@ -19,8 +19,6 @@
 #define MAGIC 2
 #define FACTORY_TEST 3
 
-&lt { tapping-term-ms = <150>; };
-
 / {
     behaviors {
         // For the "layer" key, it'd nice to be able to use it as either a shift or a toggle.
@@ -39,7 +37,7 @@
             label = "MAGIC_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <0>;
             bindings = <&mo>, <&rgb_ug_status_macro>;
         };
 
@@ -49,7 +47,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
     };
