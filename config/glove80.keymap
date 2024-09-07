@@ -56,6 +56,8 @@
             label = "TD_TXTSEL_L";
             #binding-cells = <0>;
             bindings = <&kp LS(LC(LEFT))>, <&txtsel_l>;
+
+            tapping-term-ms = <80>;
         };
 
         td_txtsel_r: td_txtsel_r {
@@ -63,6 +65,8 @@
             label = "TD_TXTSEL_R";
             #binding-cells = <0>;
             bindings = <&kp LS(LC(RIGHT))>, <&txtsel_r>;
+
+            tapping-term-ms = <80>;
         };
     };
 
