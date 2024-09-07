@@ -50,6 +50,20 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
+
+        td_txtsel_l: td_txtsel_l {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_TXTSEL_L";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(LEFT))>, <&txtsel_l>;
+        };
+
+        td_txtsel_r: td_txtsel_r {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_TXTSEL_R";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(RIGHT))>, <&txtsel_r>;
+        };
     };
 
     macros {
@@ -122,6 +136,20 @@
             bindings = <&kp LA(LS(K)) &kp LS(LA(W))>;
             label = "HWPWIDEN";
         };
+
+        txtsel_l: txtsel_l {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(RIGHT) &kp LS(LC(LEFT))>;
+            label = "TXTSEL_L";
+        };
+
+        txtsel_r: txtsel_r {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LEFT) &kp LS(LC(RIGHT))>;
+            label = "TXTSEL_R";
+        };
     };
 
     keymap {
@@ -181,12 +209,12 @@
 
         mylayer {
             bindings = <
-&trans           &trans    &trans         &trans            &trans                                                                                                                        &trans     &trans      &trans     &trans  &trans
-&trans           &trans    &trans         &trans            &trans             &trans                                                                                             &trans  &trans     &trans      &trans     &trans  &kp LA(LS(R))
-&kp LC(LA(TAB))  &trans    &trans         &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LG(LS(T))                                                                                      &trans  &trans     &trans      &trans     &trans  &kp LA(LS(E))
-&trans           &linesel  &kp LS(LG(S))  &linedel          &trans             &trans                                                                                             &trans  &trans     &trans      &linecopy  &trans  &trans
-&trans           &trans    &trans         &trans            &kp LC(LS(LG(V)))  &kp LA(LC(LG(V)))  &kp ENTER   &trans  &trans  &trans            &trans             &trans         &trans  &trans     &hwpnarrow  &hwpwiden  &trans  &trans
-&magic 2 0       &trans    &trans         &trans            &trans                                &kp DELETE  &trans  &trans  &kp LC(LS(LEFT))  &kp LC(LS(RIGHT))  &kp BACKSPACE          &kp LCTRL  &trans      &trans     &trans  &kp SCROLLLOCK
+&kp INS          &trans        &trans         &trans            &trans                                                                                                                &trans     &trans      &trans     &trans  &trans
+&trans           &trans        &trans         &trans            &trans             &trans                                                                                     &trans  &trans     &trans      &trans     &trans  &kp LA(LS(R))
+&kp LC(LA(TAB))  &td_txtsel_l  &td_txtsel_r   &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LG(LS(T))                                                                              &trans  &trans     &trans      &trans     &trans  &kp LA(LS(E))
+&trans           &linesel      &kp LS(LG(S))  &linedel          &trans             &trans                                                                                     &trans  &trans     &trans      &linecopy  &trans  &trans
+&trans           &trans        &trans         &trans            &kp LC(LS(LG(V)))  &kp LA(LC(LG(V)))  &kp ENTER   &trans  &trans  &trans        &trans         &trans         &trans  &trans     &hwpnarrow  &hwpwiden  &trans  &trans
+&magic 2 0       &trans        &trans         &trans            &trans                                &kp DELETE  &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &kp BACKSPACE          &kp LCTRL  &trans      &trans     &trans  &kp SCROLLLOCK
             >;
         };
     };
