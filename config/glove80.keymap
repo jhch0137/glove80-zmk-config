@@ -217,7 +217,7 @@
 &trans           &trans        &trans         &trans             &trans             &trans                                                                                     &trans  &trans     &trans      &trans     &trans  &kp LA(LS(R))
 &kp LC(LA(TAB))  &td_txtsel_l  &td_txtsel_r   &kp LC(LG(LEFT))   &kp LC(LG(RIGHT))  &kp LG(LS(T))                                                                              &trans  &trans     &trans      &trans     &trans  &kp LA(LS(E))
 &trans           &linesel      &kp LS(LG(S))  &linedel           &trans             &trans                                                                                     &trans  &trans     &trans      &linecopy  &trans  &trans
-&trans           &trans        &trans         &kp LC(LG(LS(C)))  &kp LC(LS(LG(V)))  &kp LA(LC(LG(V)))  &kp ENTER   &trans  &trans  &trans        &trans         &trans         &trans  &trans     &hwpnarrow  &hwpwiden  &trans  &trans
+&trans           &trans        &trans         &kp LC(LG(LS(T)))  &kp LC(LS(LG(V)))  &kp LA(LC(LG(V)))  &kp ENTER   &trans  &trans  &trans        &trans         &trans         &trans  &trans     &hwpnarrow  &hwpwiden  &trans  &trans
 &magic 2 0       &trans        &trans         &trans             &trans                                &kp DELETE  &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &kp BACKSPACE          &kp LCTRL  &trans      &trans     &trans  &kp SCROLLLOCK
             >;
         };
