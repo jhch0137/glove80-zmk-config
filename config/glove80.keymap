@@ -181,8 +181,8 @@
 &hm TILDE GRAVE  &hm EXCL N1  &hm AT_SIGN N2  &hm HASH N3  &hm DOLLAR N4  &hm PERCENT N5                                                                                 &hm CARET N6  &hm AMPERSAND N7     &hm ASTERISK N8  &hm LEFT_PARENTHESIS N9  &hm RIGHT_PARENTHESIS N0  &hm UNDERSCORE MINUS
 &kp TAB          &kp Q        &hm LC(W) W     &kp E        &kp R          &kp T                                                                                          &kp Y         &kp U                &kp I            &kp O                    &kp P                     &hm PLUS EQUAL
 &td_scaps        &kp A        &kp S           &kp D        &lt 4 F        &kp G                                                                                          &kp H         &lt 4 J              &kp K            &kp L                    &kp SEMI                  &hm DOUBLE_QUOTES SQT
-&kp LSHIFT       &hm LC(Z) Z  &hm LC(X) X     &hm LC(C) C  &hm LC(V) V    &hm LG(V) B     &kp HOME  &kp END    &hm LA(RIGHT) LC(PG_DN)  &kp UP    &kp DOWN   &kp LSHIFT  &kp N         &kp M                &kp COMMA        &kp DOT                  &hm QUESTION FSLH         &hm LG(TAB) K_APP
-&kp LGUI         &kp PG_UP    &kp PG_DN       &kp LCTRL    &kp LALT                       &kp BSPC  &kp SPACE  &hm LA(LEFT) LC(PG_UP)   &kp LEFT  &kp RIGHT  &kp SPACE                 &hm RCTRL RIGHT_ALT  &kp LALT         &kp ENTER                &hm BSLH LEFT_BRACKET     &hm BSLH RBKT
+&kp LSHIFT       &hm LC(Z) Z  &hm LC(X) X     &hm LC(C) C  &hm LC(V) V    &hm LG(V) B     &kp SPACE  &kp HOME  &hm LA(RIGHT) LC(PG_DN)  &kp UP    &kp DOWN   &kp LSHIFT  &kp N         &kp M                &kp COMMA        &kp DOT                  &hm QUESTION FSLH         &hm LG(TAB) K_APP
+&kp LGUI         &kp PG_UP    &kp PG_DN       &kp LCTRL    &kp LALT                       &kp BSPC   &kp END   &hm LA(LEFT) LC(PG_UP)   &kp LEFT  &kp RIGHT  &kp SPACE                 &hm RCTRL RIGHT_ALT  &kp LALT         &kp ENTER                &hm BSLH LEFT_BRACKET     &hm BSLH RBKT
             >;
         };
 
