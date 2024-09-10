@@ -169,12 +169,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp ESCAPE             &hm F1 F2               &kp F3                       &kp F4       &kp F5                                                                                                                      &kp F6            &kp F7           &kp F8                   &hm F11 F9                &hm F12 F10
-&hm TILDE GRAVE        &hm EXCL N1             &hm AT_SIGN N2               &hm HASH N3  &hm DOLLAR N4  &hm PERCENT N5                                                                                 &hm CARET N6  &hm AMPERSAND N7  &hm ASTERISK N8  &hm LEFT_PARENTHESIS N9  &hm RIGHT_PARENTHESIS N0  &hm UNDERSCORE MINUS
-&kp TAB                &kp Q                   &hm LC(W) W                  &kp E        &kp R          &kp T                                                                                          &kp Y         &kp U             &kp I            &kp O                    &kp P                     &hm PLUS EQUAL
-&kp LEFT_SHIFT         &kp A                   &kp S                        &kp D        &lt 4 F        &kp G                                                                                          &kp H         &lt 4 J           &kp K            &kp L                    &kp SEMI                  &hm DOUBLE_QUOTES SQT
-&hm LC(LA(TAB)) K_APP  &hm LC(Z) Z             &hm LC(X) X                  &hm LC(C) C  &hm LC(V) V    &hm LG(V) B     &kp HOME  &kp END    &kp PG_UP      &kp ENTER  &kp UP    &hm LSHIFT RIGHT_ALT  &kp N         &kp M             &kp COMMA        &kp DOT                  &hm QUESTION FSLH         &hm PIPE BSLH
-&kp LGUI               &hm LA(LEFT) LC(PG_UP)  &hm LA(RIGHT) LC(PAGE_DOWN)  &kp LCTRL    &kp LEFT_ALT                   &kp BSPC  &kp SPACE  &kp PAGE_DOWN  &kp LEFT   &kp DOWN  &kp RIGHT                           &kp SPACE         &kp LALT         &kp LBKT                 &kp RBKT                  &hm CAPSLOCK RCTRL
+&kp ESCAPE             &hm F1 F2               &kp F3                       &kp F4       &kp F5                                                                                                                 &kp F6            &kp F7           &kp F8                   &hm F11 F9                &hm F12 F10
+&hm TILDE GRAVE        &hm EXCL N1             &hm AT_SIGN N2               &hm HASH N3  &hm DOLLAR N4  &hm PERCENT N5                                                                            &hm CARET N6  &hm AMPERSAND N7  &hm ASTERISK N8  &hm LEFT_PARENTHESIS N9  &hm RIGHT_PARENTHESIS N0  &hm UNDERSCORE MINUS
+&kp TAB                &kp Q                   &hm LC(W) W                  &kp E        &kp R          &kp T                                                                                     &kp Y         &kp U             &kp I            &kp O                    &kp P                     &hm PLUS EQUAL
+&kp LEFT_SHIFT         &kp A                   &kp S                        &kp D        &lt 4 F        &kp G                                                                                     &kp H         &lt 4 J           &kp K            &kp L                    &kp SEMI                  &hm DOUBLE_QUOTES SQT
+&hm LC(LA(TAB)) K_APP  &hm LC(Z) Z             &hm LC(X) X                  &hm LC(C) C  &hm LC(V) V    &hm LG(V) B     &kp HOME  &kp END    &kp PG_UP      &kp UP    &kp DOWN   &hm ENTER SPACE  &kp N         &kp M             &kp COMMA        &kp DOT                  &hm QUESTION FSLH         &hm PIPE BSLH
+&kp LGUI               &hm LA(LEFT) LC(PG_UP)  &hm LA(RIGHT) LC(PAGE_DOWN)  &kp LCTRL    &kp LEFT_ALT                   &kp BSPC  &kp SPACE  &kp PAGE_DOWN  &kp LEFT  &kp RIGHT  &hm LSHIFT RALT                &kp SPACE         &kp LALT         &kp LBKT                 &kp RBKT                  &hm CAPSLOCK RCTRL
             >;
         };
 
@@ -217,7 +217,7 @@
 &trans           &trans        &trans         &trans             &trans             &trans                                                                                     &trans  &trans     &trans      &trans     &trans  &kp LA(LS(R))
 &kp LC(LA(TAB))  &td_txtsel_l  &td_txtsel_r   &kp LC(LG(LEFT))   &kp LC(LG(RIGHT))  &kp LG(LS(T))                                                                              &trans  &trans     &trans      &trans     &trans  &kp LA(LS(E))
 &trans           &linesel      &kp LS(LG(S))  &linedel           &trans             &trans                                                                                     &trans  &trans     &trans      &linecopy  &trans  &trans
-&trans           &trans        &trans         &kp LC(LG(LS(T)))  &kp LC(LS(LG(V)))  &kp LA(LC(LG(V)))  &kp ENTER   &trans  &trans  &trans        &trans         &trans         &trans  &trans     &hwpnarrow  &hwpwiden  &trans  &trans
+&trans           &trans        &trans         &kp LC(LG(LS(T)))  &kp LC(LS(LG(V)))  &kp LA(LC(LG(V)))  &kp ENTER   &trans  &trans  &trans        &trans         &kp ENTER      &trans  &trans     &hwpnarrow  &hwpwiden  &trans  &trans
 &magic 2 0       &trans        &trans         &trans             &trans                                &kp DELETE  &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)  &kp BACKSPACE          &kp LCTRL  &trans      &trans     &trans  &kp SCROLLLOCK
             >;
         };
