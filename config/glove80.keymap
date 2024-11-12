@@ -189,7 +189,7 @@
 &kp TAB          &kp Q        &hm LC(W) W     &kp E        &kp R          &kp T                                                                                                                 &kp Y         &kp U             &kp I            &kp O                    &kp P                     &hm PLUS EQUAL
 &kp LSHIFT       &kp A        &kp S           &kp D        &kp F          &kp G                                                                                                                 &kp H         &kp J             &kp K            &kp L                    &hm COLON SEMICOLON       &hm DOUBLE_QUOTES SQT
 &kp LSHIFT       &hm LC(Z) Z  &hm LC(X) X     &hm LC(C) C  &hm LC(V) V    &hm LG(V) B     &kp HOME         &kp END      &hm LA(LC(LS(N1))) LC(ENTER)  &kp LEFT  &kp UP_ARROW  &mo 4             &kp N         &kp M             &kp COMMA        &kp DOT                  &hm QUESTION FSLH         &hm LG(TAB) K_APP
-&kp LGUI         &kp PG_UP    &kp PG_DN       &kp LCTRL    &kp LALT                       &lt 4 BACKSPACE  &lt 4 SPACE  &hm INS DELETE                &kp DOWN  &kp RIGHT     &hm LSHIFT SPACE                &kp LEFT_ALT      &hm LALT RCTRL   &kp ENTER                &hm BSLH LEFT_BRACKET     &hm BSLH RBKT
+&kp LGUI         &kp PG_UP    &kp PG_DN       &kp LCTRL    &kp LALT                       &lt 4 BACKSPACE  &lt 4 SPACE  &hm INS DELETE                &kp DOWN  &kp RIGHT     &hm LSHIFT SPACE                &kp RIGHT_ALT     &hm LALT RCTRL   &kp ENTER                &hm BSLH LEFT_BRACKET     &hm BSLH RBKT
             >;
         };
 
